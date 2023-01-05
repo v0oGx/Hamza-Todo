@@ -45,7 +45,9 @@ textarea {
     text-align: center;
     border:5px solid;
 }
-
+.dropup .hide-toggle.dropdown-toggle::after {
+    display: none !important;
+  }
 /* Media */
 
 @media (min-width: 768px){
